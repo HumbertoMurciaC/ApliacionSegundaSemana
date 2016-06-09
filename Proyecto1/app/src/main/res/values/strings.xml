@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Proyecto1</string>
+    <string name="form_username">Nombre completo</string>
+    <string name="telefono">Telefono</string>
+    <string name="correo">Email</string>
+    <string name="D_contacto">Descripción Contacto</string>
+    <string name="B_Siguiente">Siguiente</string>
+    <string name="Confirmar_datos">Confirmar Datos</string>
+    <string name="nombre">Nombre</string>
+    <string name="fecha">Fecha Nacimiento:</string>
+    <string name="fechaNacimiento">-/-/-/</string>
+    <string name="correo2">Email:</string>
+    <string name="telefono2">Tel:</string>
+    <string name="Descripcion">Descripción:</string>
+    <string name="Editar">Editar Datos</string>
+    <string name="Seleccionar_f">Seleccione una fecha</string>
+</resources>

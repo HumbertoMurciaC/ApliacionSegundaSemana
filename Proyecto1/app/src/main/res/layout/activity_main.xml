@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="com.example.humbertomariom.proyecto1.MainActivity">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="@dimen/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/form_username">
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/etNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="18"
+        />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/TvFecha"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:text="Prueba"
+            android:textSize="@dimen/Texto_fecha"/>
+        <Button
+            android:layout_height="@dimen/B_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/Margen"
+            android:theme="@style/MiBotonRaised"
+            android:id="@+id/B_Fecha"
+            android:layout_width="wrap_content"
+            android:text="@string/Seleccionar_f"/>
+
+    </LinearLayout>
+
+
+
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+      <android.support.design.widget.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="@string/telefono"
+          android:layout_marginTop="@dimen/top">
+
+          <android.support.design.widget.TextInputEditText
+              android:id="@+id/etTelefono"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:inputType="phone"
+              android:ems="18"
+
+              />
+
+      </android.support.design.widget.TextInputLayout>
+
+
+  </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/correo"
+        android:layout_marginTop="@dimen/top">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="18"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <TextView
+        android:layout_marginTop="@dimen/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/D_contacto"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/Tam_D_contacto"/>
+
+   <EditText
+       android:id="@+id/EtDescripcion"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       />
+
+    <Button
+        android:id="@+id/bSiguiente"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/B_width"
+        android:layout_height="@dimen/B_height"
+        android:text="@string/B_Siguiente"
+        android:theme="@style/MiBotonRaised"
+        android:textAlignment="center"
+
+
+       />
+
+
+</LinearLayout>
